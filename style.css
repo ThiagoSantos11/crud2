@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #16005c;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.card {
+    background: white;
+
+    width: 400px;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card h1 {
+    margin-bottom: 20px;
+
+    font-size: 30px;
+
+    color: #111;
+}
+
+.card label {
+    display: block;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    color: #222;
+}
+
+.card input,
+.card select {
+    width: 100%;
+
+    padding: 8px;
+
+    border: 1px solid #aaa;
+
+    border-radius: 4px;
+
+    font-size: 14px;
+}
+
+button,
+.btn-listar,
+.btn-novo {
+    display: block;
+
+    width: 100%;
+
+    padding: 9px;
+
+    margin-top: 15px;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+.btn-cadastrar {
+    background: #303b66;
+
+    color: white;
+
+    border: none;
+}
+
+.btn-cadastrar:hover {
+    background: #202a4c;
+}
+
+.btn-listar {
+    background: #2864e8;
+
+    color: white;
+}
+
+.btn-listar:hover {
+    background: #174bbd;
+}
+
+.lista-card {
+    background: white;
+
+    width: 1100px;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.lista-card h1 {
+    color: #111;
+
+    margin-bottom: 15px;
+}
+
+.btn-novo {
+    width: 180px;
+
+    background: #2864e8;
+
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #777;
+
+    padding: 8px;
+
+    text-align: left;
+}
+
+th {
+    background: #eeeeee;
+
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+.ativo {
+    background: #d4edda;
+
+    color: #155724;
+
+    padding: 5px 8px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.inativo {
+    background: #f8d7da;
+
+    color: #721c24;
+
+    padding: 5px 8px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.acoes {
+    white-space: nowrap;
+}
+
+.acoes a {
+    display: inline-block;
+
+    padding: 6px 9px;
+
+    margin: 2px;
+
+    border-radius: 4px;
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 13px;
+}
+
+.btn-editar {
+    background: #2864e8;
+}
+
+.btn-excluir {
+    background: #dc3545;
+}
+
+.btn-inativar {
+    background: #777;
+}
+
+.btn-ativar {
+    background: #28a745;
+}
+
+.editar-box {
+    background: #f5f5f5;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    margin-bottom: 25px;
+}
+
+.editar-box h2 {
+    margin-bottom: 15px;
+}
+
+.editar-box label {
+    display: block;
+
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+}
+
+.editar-box input,
+.editar-box select {
+    width: 100%;
+
+    padding: 9px;
+
+    border: 1px solid #aaa;
+
+    border-radius: 4px;
+}
+
+.btn-salvar {
+    background: #28a745;
+
+    color: white;
+
+    border: none;
+}
+
+.btn-cancelar {
+    display: block;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    padding: 9px;
+
+    background: #777;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+}
